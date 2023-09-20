@@ -197,6 +197,8 @@
       .title {
           font-size: 60px;
           margin: 0;
+          display: flex;
+  justify-content: center;
           font-weight: 700;
           background: -webkit-linear-gradient(rgb(0, 140, 255), rgb(0, 193, 241));
           -webkit-background-clip: text;
@@ -367,6 +369,8 @@
           caret-color: rgb(240, 240, 240);
           color: white;
           transition: 0.3s;
+        display: flex;
+  justify-content: center;
      }
       .search-input:focus {
           outline: none;
