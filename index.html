@@ -34,6 +34,25 @@
     <form>
         <input class="search-input" placeholder="Search the web freely...">
     </form>
+    <div class="text-center">
+    <btn class="recent" onclick="aboutblankopen()">about:blank</btn>
+    <script>
+function aboutblankopen() {
+var win = window.open()
+//YOU CAN REPLACE THE LINK BELOW WITH ANYTHING YOU WANT! 
+var url = "/index.html"
+if (url) {
+var iframe = document.createElement("iframe")
+iframe.style.border = "none";
+iframe.style.width = "100%";
+iframe.style.height = "100%"
+iframe.style.margin = "0";
+iframe.src = url;
+win.document.body.appendChild(iframe);
+}
+}
+</script>
+  </div>
     <footer style="bottom: 0; position: fixed;">
         <a href="https://discord.gg/outred" target="_blank"></a>
         <p>&copy; Silicon</p>
